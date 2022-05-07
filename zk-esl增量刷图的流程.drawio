@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T06:23:54.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="eZtlZifvmqxpROC4kAD5" type="github"><diagram id="fwwbZcN6re4uZmmeimw8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-07T08:54:33.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="GhXrpGq5Lp1SJ2t6GXuP" version="17.4.6" type="github">
+  <diagram id="fwwbZcN6re4uZmmeimw8" name="第 1 页">
+    <mxGraphModel dx="782" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jaz-UzlWrOv9AN5_99XI-2" value="图片解析的流程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jaz-UzlWrOv9AN5_99XI-3" value="包含：&lt;br&gt;价签信息&lt;br&gt;本次解析的图片本身&lt;br&gt;layout&lt;br&gt;picindex（价签的图片）&lt;br&gt;是否允许增量（这如果逻辑闭环，应该是不需要参数控制的）&lt;br&gt;解析方案（抖动或者接近色）&lt;br&gt;价签mode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry width="340" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
