@@ -1,14 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T08:54:33.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="GhXrpGq5Lp1SJ2t6GXuP" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T10:16:20.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="j6QuvdqSxyk8wI30zFmx" version="20.2.3" type="github">
   <diagram id="fwwbZcN6re4uZmmeimw8" name="第 1 页">
-    <mxGraphModel dx="782" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Jaz-UzlWrOv9AN5_99XI-2" value="图片解析的流程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="Jaz-UzlWrOv9AN5_99XI-2" value="图片解析的流程" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jaz-UzlWrOv9AN5_99XI-3" value="包含：&lt;br&gt;价签信息&lt;br&gt;本次解析的图片本身&lt;br&gt;layout&lt;br&gt;picindex（价签的图片）&lt;br&gt;是否允许增量（这如果逻辑闭环，应该是不需要参数控制的）&lt;br&gt;解析方案（抖动或者接近色）&lt;br&gt;价签mode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Jaz-UzlWrOv9AN5_99XI-3" value="包含：&lt;br&gt;价签信息&lt;br&gt;本次解析的图片本身&lt;br&gt;layout&lt;br&gt;picindex（价签的图片）&lt;br&gt;是否允许增量（这如果逻辑闭环，应该是不需要参数控制的）&lt;br&gt;解析方案（抖动或者接近色）&lt;br&gt;价签mode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MtmUnXymhspHwuPsDhXZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.025;exitY=0.413;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="MtmUnXymhspHwuPsDhXZ-1" target="MtmUnXymhspHwuPsDhXZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.992;exitY=0.633;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="MtmUnXymhspHwuPsDhXZ-1" target="MtmUnXymhspHwuPsDhXZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.992;exitY=0.847;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="MtmUnXymhspHwuPsDhXZ-1" target="MtmUnXymhspHwuPsDhXZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-1" value="模板绘制完成的图片&lt;br&gt;（24位彩色图）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MtmUnXymhspHwuPsDhXZ-2" target="MtmUnXymhspHwuPsDhXZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-2" value="直接下载的图片&lt;br&gt;（24位或者32位的彩色图）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="350" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-3" value="图片商品" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MtmUnXymhspHwuPsDhXZ-7" target="MtmUnXymhspHwuPsDhXZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-7" value="双色屏&lt;br&gt;（黑白）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MtmUnXymhspHwuPsDhXZ-8" target="MtmUnXymhspHwuPsDhXZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-8" value="三色屏&lt;br&gt;（黑白红，黑白黄）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MtmUnXymhspHwuPsDhXZ-9" target="MtmUnXymhspHwuPsDhXZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-9" value="四色屏&lt;br&gt;（黑白红黄）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MtmUnXymhspHwuPsDhXZ-10" target="MtmUnXymhspHwuPsDhXZ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-10" value="多色屏&lt;br&gt;（七色）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-16" value="一张图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-18" value="两张图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-20" value="一张图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-22" value="一张图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-24" value="抖动算法" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-25" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="595" y="580" width="70" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
