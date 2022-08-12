@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T10:16:20.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="j6QuvdqSxyk8wI30zFmx" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-12T10:50:50.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Xo9vQY1LQ4jhIa0jF9sD" version="20.2.3" type="github">
   <diagram id="fwwbZcN6re4uZmmeimw8" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,10 @@
           <mxGeometry x="570" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MtmUnXymhspHwuPsDhXZ-25" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="595" y="580" width="70" height="100" as="geometry" />
+          <mxGeometry x="595" y="600" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MtmUnXymhspHwuPsDhXZ-27" value="图片商品上传的时候可以调整横纵，这个数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
